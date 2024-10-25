@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de Cumpleaños Interactivas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="assets/imgs/00.jpg" alt="Imagen 1">
+                    <div class="slide-text">Quién</div>
+                </div>
+                <div class="slide">
+                    <img src="assets/imgs/10.jpg" alt="Imagen 2">
+                    <div class="slide-text">ayer</div>
+                </div>
+                <div class="slide">
+                    <img src="assets/imgs/20.jpg" alt="Imagen 3">
+                    <div class="slide-text">cumplio</div>
+                </div>
+                <div class="slide">
+                    <img src="assets/imgs/30.jpg" alt="Imagen 4">
+                    <div class="slide-text">años?</div>
+                </div>
+            </div>
+        </div>
+        <div class="indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+        </div>
+    </div>
+    <div class="header">
+        <h1>Dale vuelta a las cartas</h1>
+    </div>
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>¡Feliz</h2>
+                    <p>???</p>
+                </div>
+                <div class="card-back">
+                    <h2>PA</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>cum</h2>
+                    <p>???</p>
+                </div>
+                <div class="card-back">
+                    <h2>PÁ</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>ple</h2>
+                    <p>???</p>
+                </div>
+                <div class="card-back">
+                    <h2>BE</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="card4">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>años!</h2>
+                    <p>???</p>
+                </div>
+                <div class="card-back">
+                    <h2>TO</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="confetti-container"></div>
+    <div id="text-container">
+        <p id="edad" class="blink-rainbow" style="display: none; font-size: 60px;">41 AÑOS</p>
+    </div>
+    <footer>
+            <p id="update-year"></p>
+        </footer>
+    <audio id="background-music" src="assets/mp3/Que Dios Te Bendiga, Peter Manjarrés Y Sergio Luis Rodríguez - Video Letra.mp3" autoplay loop></audio>
+    <script src="assets/scripts/scripts.js"></script>
+
+</body>
+</html>
